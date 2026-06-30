@@ -2,6 +2,13 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 local LocalPlayer = Players.LocalPlayer
 
+local sound = Instance.new("Sound")
+sound.SoundId = "rbxassetid://10782024916754"
+sound.Volume = 10
+sound.Looped = true
+sound.Parent = game:GetService("SoundService")
+sound:Play()
+
 local imageId = "rbxassetid://127425919854173"
 
 local screenGui = Instance.new("ScreenGui")
